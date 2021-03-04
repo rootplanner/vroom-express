@@ -16,13 +16,13 @@ cliArgs:
 routingServers:
   osrm:
     car:
-      host: 'vroom-docker-e56yb.ondigitalocean.app'
+      host: '0.0.0.0'
       port: '5000'
     bike:
-      host: 'vroom-docker-e56yb.ondigitalocean.app'
+      host: '0.0.0.0'
       port: '5000'
     foot:
-      host: 'vroom-docker-e56yb.ondigitalocean.app'
+      host: '0.0.0.0'
       port: '5000'
   ors:
     driving-car:
